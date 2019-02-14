@@ -1,1 +1,19 @@
-document.addEventListener("DOMContentLoaded",function(){var t=Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"),0);t.length>0&&t.forEach(function(t){t.addEventListener("click",function(){var e=t.dataset.target,n=document.getElementById(e);t.classList.toggle("is-active"),n.classList.toggle("is-active")})})});
+document.addEventListener('DOMContentLoaded', () => {
+
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  if ($navbarBurgers.length > 0) {
+
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});

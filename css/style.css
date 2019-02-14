@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title, .subtitle, p {
+	color: white;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+a.navbar-item:hover {
+	background-color: transparent;
+}
+
+.navbar-burger .is-active div {
+	color: black;
+}
+
+.navbar-menu {
+	/* Code from samonyt.xyz */
+	background: linear-gradient(360deg, #209cee, #0a0a0a);
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+}
+
+a.navbar-item p {
+	color: white;
+}
+
+.avatar {
+	width: 300px;;
+	display: block;
+	margin: auto;
+}
+
+.banner {
+	padding: 30px;
+    /* Code from samonyt.xyz */
+	background: linear-gradient(90deg, #35bbfb, rgba(32, 156, 238, 0.25));
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+}
+
+.main-section {
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.typeface {
+	width: 250px;
+	margin: auto;
+	display: block;
+}
+
+a.level-item:hover {
+	transition: transform 1s ease;
+	transform: scale(1.25);
+}
+
+.footer-icon {
+	color: white !important;
+}
+
+.footer {
+	text-align: center;
+	padding: 1em;
+	background: linear-gradient(90deg, #21b8ff, #000000);
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+}
+
+.fas {
+	font-size: 125px;
+}
+
+.fab {
+	color: white;
+}
+
+.icon {
+	font-size: 40px;
+}
+
+.mini-icon {
+	width: 75px;
+	border-radius: 100%;
+	border: 1px solid black;
+}
+
+.me {
+	width: 250px;
+	border-radius: 100%;
+	margin: auto;
+	display: block;
+	transition: 0.8s ease;
+	-webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.me:hover {
+	transform: rotate(360deg);
+}
+
+.box p {
+	color: black !important;
+}
+
+.box .fas {
+	color: black;
+}
+
+.media-content {
+	overflow-y: hidden;
+}
+
+.branding {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
